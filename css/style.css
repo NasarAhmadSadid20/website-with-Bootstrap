@@ -1,0 +1,45 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    text-align: center;
+    font-family: Google Sans Medium;
+}
+li{
+    display: inline-block;
+
+}
+li a {
+    display: inline-block;
+    padding: 15px 20px ;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    background-color: black;
+    color: orange;
+}
+
+.section{
+    background-color: lightblue;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section h2{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+}
